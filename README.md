@@ -1,6 +1,6 @@
 # KenshiCore
 
-A .NET 9 library for reading, writing, and reverse-engineering [Kenshi](https://kenshi.fandom.com/) `.mod` files.
+A .NET 10 library for reading, writing, and reverse-engineering [Kenshi](https://kenshi.fandom.com/) `.mod` files.
 
 This repository hosts the core shared dependency used by the other Kenshi tooling projects:
 [KenshiFixer](https://github.com/Kakrain), [KenshiPatcher](https://github.com/Kakrain), and
@@ -12,8 +12,8 @@ The repository contains two projects:
 
 | Project         | Target           | Purpose                                                                                                                  |
 | --------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `KenshiCore`    | `net9.0`         | UI-free core: `.mod` file parsing/writing, Ogre mesh & skeleton readers, mod/record models, repositories, and utilities. |
-| `KenshiCore.UI` | `net9.0-windows` | WinForms layer: shared base form, log window, theming, progress, and mod icons. Depends on `KenshiCore`.                 |
+| `KenshiCore`    | `net10.0`         | UI-free core: `.mod` file parsing/writing, Ogre mesh & skeleton readers, mod/record models, repositories, and utilities. |
+| `KenshiCore.UI` | `net10.0-windows` | WinForms layer: shared base form, log window, theming, progress, and mod icons. Depends on `KenshiCore`.                 |
 
 Splitting the UI into a separate project keeps the core platform-agnostic, so it can be used headless and unit-tested without WinForms.
 
@@ -28,7 +28,7 @@ Splitting the UI into a separate project keeps the core platform-agnostic, so it
 
 ## Requirements
 
-- .NET 9 SDK (or Desktop Runtime, x64, to run the WinForms UI).
+- .NET 10 SDK (or Desktop Runtime, x64, to run the WinForms UI).
 - Microsoft Visual C++ 20xx Redistributable (x64) for GUI applications.
 
 ## Building
