@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>KenshiCore.UI</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KenshiCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="fernandreu.ScintillaNET" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="icons\kenshiicon.png">
+      <LogicalName>KenshiCore.icons.kenshiicon.png</LogicalName>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icons\selectedicon.png">
+      <LogicalName>KenshiCore.icons.selectedicon.png</LogicalName>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icons\steamicon.png">
+      <LogicalName>KenshiCore.icons.steamicon.png</LogicalName>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

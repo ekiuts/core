@@ -1,0 +1,43 @@
+# ─────────────────────────────
+# .NET build results
+# ─────────────────────────────
+bin/
+obj/
+out/
+artifacts/
+
+# ─────────────────────────────
+# Visual Studio user-specific files
+# ─────────────────────────────
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# ─────────────────────────────
+# NuGet
+# ─────────────────────────────
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# ─────────────────────────────
+# Logs, backups & temp files
+# ─────────────────────────────
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# ─────────────────────────────
+# OS-specific junk
+# ─────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
