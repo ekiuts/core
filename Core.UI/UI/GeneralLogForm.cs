@@ -1,9 +1,9 @@
-﻿using KenshiCore.Utilities;
+﻿using Core.Utilities;
 using ScintillaNET;
 using System.Drawing;
 using System.Text;
 
-namespace KenshiCore.UI
+namespace Core.UI
 {
     public partial class GeneralLogForm : Form
     {

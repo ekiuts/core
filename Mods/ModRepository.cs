@@ -1,12 +1,12 @@
-﻿using KenshiCore.ReverseEngineering;
-using KenshiCore.Utilities;
+﻿using Core.ReverseEngineering;
+using Core.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KenshiCore.Mods
+namespace Core.Mods
 {
     public class ModRepository
     {

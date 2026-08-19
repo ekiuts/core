@@ -1,17 +1,17 @@
-using KenshiCore.Mods;
-using KenshiCore.Utilities;
+using Core.Mods;
+using Core.Utilities;
 using System.Drawing;
 
-namespace KenshiCore.UI
+namespace Core.UI
 {
     /// <summary>Icon rendering for <see cref="ModItem"/>. Lives in the UI layer because it depends on System.Drawing.</summary>
     public static class ModItemIcon
     {
         private static readonly Dictionary<int, Image> iconCache = new();
 
-        public static Image? GameDirIcon { get; } = ResourceLoader.LoadImage("KenshiCore.icons.kenshiicon.png");
-        public static Image? WorkshopIcon { get; } = ResourceLoader.LoadImage("KenshiCore.icons.steamicon.png");
-        public static Image? SelectedIcon { get; } = ResourceLoader.LoadImage("KenshiCore.icons.selectedicon.png");
+        public static Image? GameDirIcon { get; } = ResourceLoader.LoadImage("Core.icons.kenshiicon.png");
+        public static Image? WorkshopIcon { get; } = ResourceLoader.LoadImage("Core.icons.steamicon.png");
+        public static Image? SelectedIcon { get; } = ResourceLoader.LoadImage("Core.icons.selectedicon.png");
 
         public static Image CreateCompositeIcon(this ModItem mod)
         {

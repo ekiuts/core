@@ -1,8 +1,8 @@
-using KenshiCore.Mods;
-using KenshiCore.ReverseEngineering;
-using KenshiCore.Utilities;
+using Core.Mods;
+using Core.ReverseEngineering;
+using Core.Utilities;
 
-namespace KenshiCore
+namespace Core
 {
     /// <summary>
     /// Composition root for the Kenshi tooling services. Constructed once at app startup and injected

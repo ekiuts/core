@@ -1,6 +1,6 @@
-﻿using KenshiCore.Mods;
-using KenshiCore.ReverseEngineering;
-using KenshiCore.Utilities;
+﻿using Core.Mods;
+using Core.ReverseEngineering;
+using Core.Utilities;
 using System;
 using System.Collections;
 using System.Diagnostics;
@@ -39,7 +39,7 @@ class ListViewColumnSorter : IComparer
     }
 }
 
-namespace KenshiCore.UI
+namespace Core.UI
 {
     
 

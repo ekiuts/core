@@ -1,11 +1,11 @@
-﻿using KenshiCore.Utilities;
+﻿using Core.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KenshiCore.OgreEngineering
+namespace Core.OgreEngineering
 {
     public enum MeshChunkType : ushort
     {

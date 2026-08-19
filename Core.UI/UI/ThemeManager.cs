@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KenshiCore.UI
+namespace Core.UI
 {
     public static class ThemeManager
     {

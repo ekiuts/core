@@ -1,10 +1,9 @@
-# KenshiCore
+# Kenshi Core Library
 
 A .NET 10 library for reading, writing, and reverse-engineering [Kenshi](https://kenshi.fandom.com/) `.mod` files.
 
 This repository hosts the core shared dependency used by the other Kenshi tooling projects:
-[KenshiFixer](https://github.com/Kakrain/KenshiFixer), [KenshiPatcher](https://github.com/Kakrain/KenshiPatcher), and
-[KenshiUtilities](https://github.com/Kakrain/KenshiUtilities).
+[Fixer](https://github.com/ekiuts/fixer), [Patcher](https://github.com/ekiuts/patcher), and [Utilities](https://github.com/ekiuts/utilities).
 
 ## Projects
 
@@ -12,8 +11,8 @@ The repository contains two projects:
 
 | Project         | Target           | Purpose                                                                                                                  |
 | --------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `KenshiCore`    | `net10.0`         | UI-free core: `.mod` file parsing/writing, Ogre mesh & skeleton readers, mod/record models, repositories, and utilities. |
-| `KenshiCore.UI` | `net10.0-windows` | WinForms layer: shared base form, log window, theming, progress, and mod icons. Depends on `KenshiCore`.                 |
+| `Core`    | `net10.0`         | UI-free core: `.mod` file parsing/writing, Ogre mesh & skeleton readers, mod/record models, repositories, and utilities. |
+| `Core.UI` | `net10.0-windows` | WinForms layer: shared base form, log window, theming, progress, and mod icons. Depends on `Core`.                 |
 
 Splitting the UI into a separate project keeps the core platform-agnostic, so it can be used headless and unit-tested without WinForms.
 
@@ -28,19 +27,19 @@ Splitting the UI into a separate project keeps the core platform-agnostic, so it
 
 ## Requirements
 
-- .NET 10 SDK (or Desktop Runtime, x64, to run the WinForms UI).
+- Microsoft .NET 10 SDK (or Desktop Runtime, x64, to run the WinForms UI).
 - Microsoft Visual C++ 20xx Redistributable (x64) for GUI applications.
 
 ## Building
 
 ```sh
-dotnet build KenshiCore.sln
+dotnet build Core.sln
 ```
 
 To build the Windows-only UI/consumer projects on a non-Windows host:
 
 ```sh
-dotnet build KenshiCore.sln -p:EnableWindowsTargeting=true
+dotnet build Core.sln -p:EnableWindowsTargeting=true
 ```
 
 ## Usage
@@ -48,7 +47,7 @@ dotnet build KenshiCore.sln -p:EnableWindowsTargeting=true
 Create the composition root (`KenshiServices`) once at startup and inject it into your forms/consumers:
 
 ```csharp
-using KenshiCore;
+using Core;
 
 var services = new KenshiServices();   // resolves Kenshi install paths, wires repositories
 services.LoadMods();
@@ -64,9 +63,9 @@ classes that are not wired for constructor injection.
 
 ## Credits
 
-**KenshiCore** was originally created and developed by **Kakrain** ([@Kakrain](https://github.com/Kakrain)).
+The original [KenshiCore](https://github.com/Kakrain/KenshiCore), was created and developed by **Kakrain** ([@Kakrain](https://github.com/Kakrain)).
 
-It is maintained by **ekiuts** ([@ekiuts](https://github.com/ekiuts)), who restructured the codebase into
+This version is maintained by **ekiuts** ([@ekiuts](https://github.com/ekiuts)), who restructured the codebase into
 the current split-core / WinForms-UI layout.
 
 ## License

@@ -1,10 +1,10 @@
-﻿using KenshiCore.ReverseEngineering;
+﻿using Core.ReverseEngineering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace KenshiCore.Mods
+namespace Core.Mods
 {
     public class ModRecord
     {

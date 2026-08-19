@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KenshiCore.OgreEngineering
+namespace Core.OgreEngineering
 {
     public class OgreContext
     {

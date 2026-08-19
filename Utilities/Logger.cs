@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace KenshiCore.Utilities
+namespace Core.Utilities
 {
     /// <summary>
     /// The single logging facade for the core. Owns output suppression (by file or id),

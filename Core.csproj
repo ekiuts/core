@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="KenshiCore.UI\**" />
-    <EmbeddedResource Remove="KenshiCore.UI\**" />
-    <None Remove="KenshiCore.UI\**" />
+    <Compile Remove="Core.UI\**" />
+    <EmbeddedResource Remove="Core.UI\**" />
+    <None Remove="Core.UI\**" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-namespace KenshiCore.Utilities
+namespace Core.Utilities
 {
     /// <summary>Icon variants surfaced by the UI layer. Kept out of System.Windows.Forms so the core stays UI-free.</summary>
     public enum UiIcon

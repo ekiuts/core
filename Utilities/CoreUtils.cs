@@ -1,7 +1,7 @@
-﻿using KenshiCore.Mods;
+﻿using Core.Mods;
 using System.Text;
 
-namespace KenshiCore.Utilities
+namespace Core.Utilities
 {
     public static class CoreUtils
     {

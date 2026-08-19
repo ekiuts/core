@@ -1,9 +1,9 @@
-﻿using KenshiCore.Utilities;
+﻿using Core.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace KenshiCore.Mods
+namespace Core.Mods
 {
     public class ModItem
     {

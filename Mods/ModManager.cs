@@ -1,7 +1,7 @@
-﻿using KenshiCore.Utilities;
+﻿using Core.Utilities;
 using Microsoft.Win32;
 
-namespace KenshiCore.Mods
+namespace Core.Mods
 {
     /// <summary>
     /// Resolves and owns the Kenshi installation paths. Instance-based: the concrete

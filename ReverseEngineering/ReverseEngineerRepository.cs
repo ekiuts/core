@@ -1,9 +1,9 @@
-﻿using KenshiCore.Mods;
-using KenshiCore.Utilities;
+﻿using Core.Mods;
+using Core.Utilities;
 using System.Collections.Concurrent;
 using System.Text;
 
-namespace KenshiCore.ReverseEngineering
+namespace Core.ReverseEngineering
 {
     public class ReverseEngineerRepository
     {

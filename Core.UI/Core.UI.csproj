@@ -5,11 +5,11 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <RootNamespace>KenshiCore.UI</RootNamespace>
+    <RootNamespace>Core.UI</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KenshiCore.csproj" />
+    <ProjectReference Include="..\Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,15 +18,15 @@
 
   <ItemGroup>
     <EmbeddedResource Include="icons\kenshiicon.png">
-      <LogicalName>KenshiCore.icons.kenshiicon.png</LogicalName>
+      <LogicalName>Core.icons.kenshiicon.png</LogicalName>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="icons\selectedicon.png">
-      <LogicalName>KenshiCore.icons.selectedicon.png</LogicalName>
+      <LogicalName>Core.icons.selectedicon.png</LogicalName>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="icons\steamicon.png">
-      <LogicalName>KenshiCore.icons.steamicon.png</LogicalName>
+      <LogicalName>Core.icons.steamicon.png</LogicalName>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

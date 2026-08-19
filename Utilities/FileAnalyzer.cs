@@ -1,5 +1,5 @@
-﻿using KenshiCore.OgreEngineering;
-using KenshiCore.ReverseEngineering;
+﻿using Core.OgreEngineering;
+using Core.ReverseEngineering;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KenshiCore.Utilities
+namespace Core.Utilities
 {
     public class FileAnalyzer
     {

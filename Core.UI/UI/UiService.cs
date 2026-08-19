@@ -1,10 +1,10 @@
-using KenshiCore.Utilities;
+using Core.Utilities;
 using System;
 using System.Diagnostics;
 using System.IO;
 using System.Windows.Forms;
 
-namespace KenshiCore.UI
+namespace Core.UI
 {
     public static class UiService
     {

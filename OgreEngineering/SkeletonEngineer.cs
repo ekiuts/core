@@ -1,5 +1,5 @@
-﻿using KenshiCore.Mods;
-using KenshiCore.Utilities;
+﻿using Core.Mods;
+using Core.Utilities;
 using System;
 using System.Buffers.Binary;
 using System.IO;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
 
-namespace KenshiCore.OgreEngineering
+namespace Core.OgreEngineering
 {
     public enum ChunkType : ushort
     {

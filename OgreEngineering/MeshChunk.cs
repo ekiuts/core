@@ -1,4 +1,4 @@
-﻿using KenshiCore.Utilities;
+﻿using Core.Utilities;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace KenshiCore.OgreEngineering
+namespace Core.OgreEngineering
 {
     public abstract class MeshChunk
     {

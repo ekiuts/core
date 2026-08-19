@@ -1,7 +1,7 @@
-﻿using KenshiCore.Utilities;
+﻿using Core.Utilities;
 using System;
 
-namespace KenshiCore.UI
+namespace Core.UI
 {
     public sealed class ProgressController : IProgressReporter
     {

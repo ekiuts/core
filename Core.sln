@@ -2,9 +2,9 @@
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36511.14 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KenshiCore", "KenshiCore.csproj", "{6095DD1B-D60A-0612-EC62-C6C787E01523}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core.csproj", "{6095DD1B-D60A-0612-EC62-C6C787E01523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KenshiCore.UI", "KenshiCore.UI\KenshiCore.UI.csproj", "{7C62AC04-7F74-437E-86E5-40CE0D7E2562}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.UI", "Core.UI\Core.UI.csproj", "{7C62AC04-7F74-437E-86E5-40CE0D7E2562}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

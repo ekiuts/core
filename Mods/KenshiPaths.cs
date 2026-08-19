@@ -1,4 +1,4 @@
-namespace KenshiCore.Mods
+namespace Core.Mods
 {
     /// <summary>
     /// Immutable snapshot of the resolved Kenshi installation paths. Owned and updated by
