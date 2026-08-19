@@ -3,8 +3,8 @@
 A .NET 10 library for reading, writing, and reverse-engineering [Kenshi](https://kenshi.fandom.com/) `.mod` files.
 
 This repository hosts the core shared dependency used by the other Kenshi tooling projects:
-[KenshiFixer](https://github.com/Kakrain), [KenshiPatcher](https://github.com/Kakrain), and
-[KenshiUtilities](https://github.com/Kakrain).
+[KenshiFixer](https://github.com/Kakrain/KenshiFixer), [KenshiPatcher](https://github.com/Kakrain/KenshiPatcher), and
+[KenshiUtilities](https://github.com/Kakrain/KenshiUtilities).
 
 ## Projects
 
